@@ -17,3 +17,44 @@ else if (a===b) console.log ("Wow, you both have equally long names");
 }
 isLonger()
 
+// Iteration 3: Loops
+
+// UPPERCASE
+
+function upperWith(str) {
+
+    str = str.split(' ');
+    let result = '';
+  
+    for (let i = 0; i < str.length; i++) {
+      result += str[i].toUpperCase().split("").join(" ");
+    }
+    return result;
+  }
+  
+  console.log(upperWith(hacker1))
+
+  // REVERSE
+
+  function reverseWith(str) {
+
+    str = str.split(' ');
+    let result = '';
+    for (let i = 0; i < str.length; i++) {
+      result += str[i].toUpperCase(1).split("").reverse().join("");
+    }
+    return result;
+  }
+  
+
+  console.log(reverseWith(hacker2))
+
+  
+// LEXICOGRAPHIC
+
+
+
+
+  
+  
+
